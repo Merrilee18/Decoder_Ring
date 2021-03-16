@@ -16,12 +16,13 @@ const caesarModule = (function () {
     }
 
     let result = "";
+    let lowerInput = input.toLowerCase();
 
-    for (let i = 0; i < input.length; i++) {
-      const charCode = input.charCodeAt(i);
+    for (let i = 0; i < lowerInput.length; i++) {
+      const charCode = lowerInput.charCodeAt(i);
       //If the character is not in the alphabet, record the character as is
       if (charCode < 65 || charCode > 122 || (charCode > 90 && charCode < 97)) {
-        result += input[i];
+        result += lowerInput[i];
       } else {
         let newCharCode = charCode + shift;
 
@@ -30,17 +31,17 @@ const caesarModule = (function () {
           newCharCode = newCharCode - 122 + 96;
         }
         //uppercase wraparound, positive shift
-        if (charCode <= 90 && newCharCode > 90) {
-          newCharCode = newCharCode - 90 + 64;
-        }
+        // if (charCode <= 90 && newCharCode > 90) {
+        //   newCharCode = newCharCode - 90 + 64;
+        // }
         //lowercase wraparound, negative shift
         if (charCode >= 97 && newCharCode <= 96) {
           newCharCode = newCharCode + 122 - 96;
         }
         //uppercase wraparound, positive shift
-        if (charCode >= 65 && newCharCode <= 64) {
-          newCharCode = newCharCode + 90 - 64;
-        }
+        // if (charCode >= 65 && newCharCode <= 64) {
+        //   newCharCode = newCharCode + 90 - 64;
+        // }
 
         result += String.fromCharCode(newCharCode);
       }
