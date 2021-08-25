@@ -23,4 +23,7 @@ Enter the numbers and select the "decode" radio button. The output below will di
 ## Caesar Shift Decode
 ![Caesar_Shift_Ddcode](https://github.com/Merrilee18/Decoder_Ring/blob/main/Caesar_shift_decode.PNG)
 
+## Caesar Shift Decode
+![Substitution_Cipher](https://github.com/Merrilee18/Decoder_Ring/blob/main/Substitution_Cipher.PNG)
+
 
