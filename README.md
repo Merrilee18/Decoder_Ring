@@ -17,4 +17,10 @@ To encode, select the "encode" radio button and simply add a message. The encode
 Enter the numbers and select the "decode" radio button. The output below will display the decoded message, with (i/j) sharing a number.
 ![Polybius_Square_Decode](https://github.com/Merrilee18/Decoder_Ring/blob/main/Polybius_Square_Decode.PNG)
 
+## Caesar Shift Encode
+![Caesar_Shift_Encode](https://github.com/Merrilee18/Decoder_Ring/blob/main/Caesar_shift_encode.PNG)
+
+## Caesar Shift Decode
+![Caesar_Shift_Ddcode](https://github.com/Merrilee18/Decoder_Ring/blob/main/Caesar_shift_decode.PNG)
+
 
